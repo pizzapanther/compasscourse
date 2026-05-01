@@ -12,7 +12,7 @@
         <managingEditor>webmaster@compasscourse.life (Webmaster)</managingEditor>
         <webMaster>webmaster@compasscourse.life (Webmaster)</webMaster>
         <image>
-            <url>https://www.wildwoodag.church/icons/android-chrome-512x512.png</url>
+            <url>https://compasscourse.life/logo.png</url>
             <title>True North Podcast</title>
             <link>https://compasscourse.life/</link>
         </image>
@@ -35,7 +35,7 @@
             <itunes:email>webmaster@compasscourse.life (Webmaster)</itunes:email>
         </itunes:owner>
 
-        <itunes:image href="https://www.wildwoodag.church/icons/android-chrome-512x512.png"/>
+        <itunes:image href="https://compasscourse.life/logo.png"/>
 
         {% for entry in pagination.object_list %}
         <item>
@@ -45,7 +45,7 @@
             <guid isPermaLink="true">{{ entry.metadata.media_url }}</guid>
             <pubDate>{{ entry.metadata.date }}</pubDate>
             <author>webmaster@compasscourse.life (Webmaster)</author>
-            <itunes:image href="https://media.wildwoodag.xyz/{{ entry.thumb_path }}"/>
+            <itunes:image href="https://compasscourse.life/logo.png"/>
             <itunes:explicit>false</itunes:explicit>
 
             <enclosure url="{{ entry.metadata.media_url }}" length="{{ entry.metadata.media_size }}" type="audio/mpeg" />
