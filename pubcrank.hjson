@@ -1,0 +1,12 @@
+{
+  site: {
+    name: Compass Ministries
+    nav: [
+      {
+        name: "Home"
+        url: "/"
+      }
+    ]
+  }
+  theme: "compass"
+}
