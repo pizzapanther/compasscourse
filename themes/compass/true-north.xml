@@ -27,8 +27,8 @@
         <itunes:author>Compass Ministries</itunes:author>
         <itunes:explicit>false</itunes:explicit>
         <itunes:type>episodic</itunes:type>
-        <itunes:category text="Religion"/>
-        <itunes:category text="Self-Improvement"/>
+        <itunes:category text="Religion &amp; Spirituality"/>
+        <itunes:category text="Education"/>
 
         <itunes:owner>
             <itunes:name>Compass Ministries</itunes:name>
