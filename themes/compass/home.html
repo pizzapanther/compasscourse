@@ -1,12 +1,16 @@
-{% extends "compass/base.html" %}
+{% extends "compass/base.html" %}{% load pubcrank %}
 {% block content %}
 <div class="wrapper">
-  <h1>coming soon<span class="dot">.</span></h1>
-  <!-- <p>Put some text here.</p>
-  <div class="icons">
-    <a href=""><i class="fa fa-twitter"></i></a>
-    <a href=""><i class="fa fa-youtube-play"></i></a>
-    <a href=""><i class="fa fa-paper-plane"></i></a>
-  </div> -->
+  <h1>{{ page.title }}</h1>
+  <h2>Episodes</h2>
+  <ul>
+    {% for entry in pagination.object_list %}
+    <li>
+      <a href="https://compasscourse.life{% page_url entry %}">
+        {{ entry.metadata.title }}
+      </a>
+    </li>
+    {% endfor %}
+  </ul>
 </div>
 {% endblock %}
