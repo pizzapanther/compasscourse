@@ -9,8 +9,7 @@
         <generator>Pubcrank CLI</generator>
         <pubDate>{% now "r" %}</pubDate>
         <lastBuildDate>{% now "r" %}</lastBuildDate>
-        <managingEditor>webmaster@pubcrank.com (Webmaster)</managingEditor>
-        <webMaster>webmaster@pubcrank.com (Webmaster)</webMaster>
+        <managingEditor>webmaster@compasscourse.life</managingEditor>
         <image>
             <url>https://compasscourse.life/logo.png</url>
             <title>True North Podcast</title>
@@ -48,7 +47,6 @@
             <link>{{ entry.metadata.media_url }}</link>
             <guid isPermaLink="true">{{ entry.metadata.media_url }}</guid>
             <pubDate>{{ entry.metadata.date }}</pubDate>
-            <author>webmaster@pubcrank.com (Webmaster)</author>
             <itunes:image href="https://compasscourse.life/logo.png"/>
             <itunes:explicit>false</itunes:explicit>
 
