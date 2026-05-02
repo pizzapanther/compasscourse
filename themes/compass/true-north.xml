@@ -9,8 +9,8 @@
         <generator>Pubcrank CLI</generator>
         <pubDate>{% now "r" %}</pubDate>
         <lastBuildDate>{% now "r" %}</lastBuildDate>
-        <managingEditor>webmaster@compasscourse.life (Webmaster)</managingEditor>
-        <webMaster>webmaster@compasscourse.life (Webmaster)</webMaster>
+        <managingEditor>webmaster@pubcrank.com (Webmaster)</managingEditor>
+        <webMaster>webmaster@pubcrank.com (Webmaster)</webMaster>
         <image>
             <url>https://compasscourse.life/logo.png</url>
             <title>True North Podcast</title>
@@ -36,7 +36,7 @@
 
         <itunes:owner>
             <itunes:name>Compass Ministries</itunes:name>
-            <itunes:email>webmaster@compasscourse.life (Webmaster)</itunes:email>
+            <itunes:email>webmaster@pubcrank.com (Webmaster)</itunes:email>
         </itunes:owner>
 
         <itunes:image href="https://compasscourse.life/logo.png"/>
@@ -48,7 +48,7 @@
             <link>{{ entry.metadata.media_url }}</link>
             <guid isPermaLink="true">{{ entry.metadata.media_url }}</guid>
             <pubDate>{{ entry.metadata.date }}</pubDate>
-            <author>webmaster@compasscourse.life (Webmaster)</author>
+            <author>webmaster@pubcrank.com (Webmaster)</author>
             <itunes:image href="https://compasscourse.life/logo.png"/>
             <itunes:explicit>false</itunes:explicit>
 
