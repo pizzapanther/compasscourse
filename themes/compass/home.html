@@ -1,16 +1,1 @@
 {% extends "compass/base.html" %}{% load pubcrank %}
-{% block content %}
-<div class="wrapper">
-  <h1>{{ site.name }}</h1>
-  <h2>Episodes of True North Podcast</h2>
-  <ul>
-    {% for entry in pagination.object_list %}
-    <li>
-      <a href="https://compasscourse.life{% page_url entry %}">
-        {{ entry.metadata.title }}
-      </a>
-    </li>
-    {% endfor %}
-  </ul>
-</div>
-{% endblock %}
