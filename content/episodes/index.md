@@ -4,7 +4,7 @@
   subtitle: Helping to Keep You on the True Path
   template: podcast.html
   paginate: {
-    listdir: ./episodes/
+    listdir: ./
     recursive: true
     sortby: -date
   }
