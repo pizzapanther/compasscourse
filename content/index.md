@@ -7,14 +7,7 @@
   <div data-ix="move-down-on-load-3" class="container w-container">
     <h2 class="heading-2 video">About Dr. Jack Klugh</h2>
     <div style="padding-top: 56.17021276595745%" class="w-video w-embed">
-      <iframe
-        class="embedly-embed"
-        src="http://cdn.embedly.com/widgets/media.html?src=https%3A%2F%2Fwww.youtube.com%2Fembed%2F_REtXg7ZahU%3Ffeature%3Doembed&amp;url=http%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3D_REtXg7ZahU&amp;image=https%3A%2F%2Fi.ytimg.com%2Fvi%2F_REtXg7ZahU%2Fhqdefault.jpg&amp;key=96f1f04c5f4143bcb0f2e68c87d65feb&amp;type=text%2Fhtml&amp;schema=youtube"
-        scrolling="no"
-        frameborder="0"
-        allow="autoplay; fullscreen"
-        allowfullscreen="true"
-      ></iframe>
+      <iframe src="https://www.youtube.com/embed/_REtXg7ZahU?si=iYONV144pzKEDEaO" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
     </div>
   </div>
 </div>
