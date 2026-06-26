@@ -1,16 +1,33 @@
-{% extends "compass/base.html" %}{% load pubcrank %}
+{% extends "compass/page.html" %}{% load pubcrank %}
 {% block content %}
-<div class="wrapper">
-  <h1>{{ site.name }}</h1>
-  <h2>Episodes of True North Podcast</h2>
-  <ul>
+<div id="content-section" data-ix="move-up-on-scroll-3" class="content-section">
+  <div data-ix="move-down-on-load-3" class="container w-container">
     {% for entry in pagination.object_list %}
-    <li>
-      <a href="https://compasscourse.life{% page_url entry %}">
-        {{ entry.metadata.title }}
-      </a>
-    </li>
+    <div>
+      <h2>
+        <a href="{% page_url entry %}" style="font-size: 140%;">
+          {{ entry.metadata.title }}
+        </a>
+      </h2>
+      <h3>{{ entry.metadata.date|date:"m/d/Y" }}</h3>
+      <br><br>
+    </div>
     {% endfor %}
-  </ul>
+  </div>
+</div>
+<div id="content-section" data-ix="move-up-on-scroll-3" class="content-section">
+  <br><br>
+  <div data-ix="move-down-on-load-3" class="container w-container">
+    {% if pagination.has_previous %}
+    <a href="/episodes/page/{{ pagination.previous_page_number }}/" class="button top-border">
+      &lt; Previous
+    </a>
+    {% endif %}
+    {% if pagination.has_next %}
+    <a href="/episodes/page/{{ pagination.next_page_number }}/" class="button top-border">
+      Next &gt;
+    </a>
+    {% endif %}
+  </div>
 </div>
 {% endblock %}

@@ -1,10 +1,33 @@
-{% extends "compass/base.html" %}
+{% extends "compass/base.html" %}{% load pubcrank %}
+{% block hero %}
+<div class="container w-container">
+  <div class="page-header-text">
+    <h1 class="heading-1 white">{{ page.title }}</h1>
+    <div class="subtitle-box small">
+      <p class="subtitle">{{ page.date|date:"m/d/Y" }}</p>
+    </div>
+  </div>
+</div>
+{% endblock %}
 {% block content %}
-<h1>{{ page.title }}</h1>
-<p>
-  {{ page.description }}
-</p>
-<audio controls>
-  <source src="{{ page.media_url }}" type="audio/mpeg">
-</audio>
+<div id="content-section" data-ix="move-up-on-scroll-3" class="content-section">
+  <div data-ix="move-down-on-load-3" class="container w-container">
+    <p>
+      {{ page.description }}
+    </p>
+  </div>
+  <div data-ix="move-down-on-load-3" class="container w-container">
+    <div>
+      <audio controls>
+        <source src="{{ page.media_url }}" type="audio/mpeg">
+      </audio>
+    </div>
+    <div>
+      <a href="{{ page.godcaster_url }}" class="button top-border">Listen on Godcaster</a>
+    </div>
+    <div>
+      <a href="{{ page.rumble_url }}" class="button top-border">Watch on Rumble</a>
+    </div>
+  </div>
+</div>
 {% endblock %}
