@@ -6,5 +6,5 @@
   media_url: https://media.wildwoodag.xyz/true-north/e04-live-with-eternity-in-mind-true-north.mp3
   media_size: 45413037
   rumble_url: https://rumble.com/v7cl5ry-live-with-eternity-in-mind-part-2.html
-  godcaster_url: https://gcfm.link/sl/472Z0d502ef63
+  godcaster_url: https://gcfm.link/sl/472Z47d38b53f
 }
