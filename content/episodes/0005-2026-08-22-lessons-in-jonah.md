@@ -6,5 +6,5 @@
   media_url: https://media.wildwoodag.xyz/true-north/e05-lessons-jonah-true-north.mp3
   media_size: 32834205
   rumble_url: https://rumble.com/v7eivcu-lessons-in-jonah.html
-  godcaster_url: https://gcfm.link/sl/472Z47d38b53f
+  godcaster_url: https://gcfm.link/sl/472Ze992ef04d
 }
